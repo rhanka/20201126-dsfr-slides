@@ -85,4 +85,36 @@ code {
 .rf-text--right {
   text-align: right;}
 
+.rf-tile__img img {
+  max-width: unset;
+  max-height: unset;
+}
+
+.rf-tile__img img{
+  margin: 0px;}
+
+.rf-tile__img.rf-margin-1N {
+  margin: 8px;}
+
+.rf-tile__img.rf-margin-2N {
+    margin: 16px;}
+
+.rf-tile__img.rf-margin-4N {
+  margin: 32px;}
+
+.rf-tile__img.rf-tile__img--16-9, .rf-tile__img.rf-tile__img--1-2, .rf-tile__img.rf-tile__img--1-3 {
+  overflow: hidden;
+}
+
+.rf-tile__img.rf-tile__img--16-9::before {
+  padding-bottom: 56.25%
+}
+
+.rf-tile__img.rf-tile__img--1-2::before {
+  padding-bottom: 50%
+}
+
+.rf-tile__img.rf-tile__img--1-3::before {
+  padding-bottom: 33%
+}
 

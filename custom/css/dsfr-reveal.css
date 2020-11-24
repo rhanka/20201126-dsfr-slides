@@ -148,25 +148,29 @@ body html div {
 }
 
 .reveal h1 {
-  font-size: 2rem; }
+  font-size: 2rem;
+  margin-top: 8px;}
   @media (min-width: 768px) {
     .reveal h1 {
       font-size: 3rem; } }
 
 .reveal h2 {
-  font-size: 1.5rem; }
+  font-size: 1.5rem;
+  margin-top: 8px;}
   @media (min-width: 768px) {
     .reveal h2 {
       font-size: 2rem; } }
 
 .reveal h3 {
-  font-size: 1.25rem; }
+  font-size: 1.25rem;
+  margin-top: 8px;}
   @media (min-width: 768px) {
     .reveal h3 {
       font-size: 1.5rem; } }
 
 .reveal h4 {
-  font-size: 1rem; }
+  font-size: 1rem;
+  margin-top: 8px;}
   @media (min-width: 768px) {
     .reveal h4 {
       font-size: 1.375rem; } }
@@ -578,7 +582,7 @@ color: var(--g600); }
   top:-16px;
   left:0;
   width:100%;
-  height:100%}
+  height:100vh;
 }
 }
 
@@ -700,3 +704,4 @@ color: var(--g600); }
       height: 300vh;
     }
   }
+
